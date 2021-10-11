@@ -1,0 +1,11 @@
+#include "header.h"
+#include <gnu/libc-version.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(){
+    char string[] = "fuck you";
+    long p = 0x7fff12112f13;
+    
+    //2.28
+    strcpy(string , g
